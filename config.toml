@@ -1,4 +1,4 @@
-baseURL = "http://sacredchao.tk/"
+baseURL = "https://sacredchao.tk/"
 languageCode = "ru-ru"
 title = "Sacredchao"
 relativeURLS=true
