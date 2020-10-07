@@ -38,7 +38,7 @@ body {
     color: var(--body-color);
     font-family: 'Verdana', sans-serif;
     font-size: 15px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto 30px auto;
     background-color: var(--bg-color);
 }
@@ -822,35 +822,19 @@ a.btn {
 @media screen and (max-width: 960px),
 print {
     .sidebar {
-        width: 90%;
-        position: absolute;
-        border-right: none;
-        z-index: 1;
-    }
-
-    .sidebar .logo-title {
-        padding-top: 120px;
-    }
-
-    .sidebar .logo-title .title img {
-        width: 100px;
-    }
-
-    .sidebar .logo-title .title h3 {
-        font-size: 20px;
+		display: none;
     }
 
     .page-top {
-        width: 90%;
+        width: 100%;
     }
 
     .post-title h3 {
         line-height: 1.6;
     }
 
-    .content {
-        margin-top: 420px;
-        width: 90%;
+    .content {        
+        width: 100%;
         z-index: 2;
         position: absolute;
     }
@@ -867,7 +851,7 @@ print {
         background-color: var(--secondary-bg-color);
         box-shadow: 0 8px 16px rgba(10, 10, 10, .1);
         padding: .5rem 0;
-        width: 90%;
+        width: 100%;
         display: none;
         margin-top: 0px;
     }

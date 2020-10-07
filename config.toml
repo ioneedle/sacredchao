@@ -21,6 +21,7 @@ description = ""
 profilePicture = "images/profile.png"
 keywords = ""
 favicon = "favicons/favicon.ico"
+displayMode = "light"
 customCss = []
 customJs = []
 mainSections = ["post"]
