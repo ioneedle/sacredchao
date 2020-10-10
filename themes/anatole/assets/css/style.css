@@ -265,7 +265,7 @@ a:active {
 
 .sidebar .logo-title {
     text-align: center;
-    padding-top: 240px;
+    padding-top: 100px;
 }
 
 .sidebar .logo-title .description {
@@ -278,7 +278,7 @@ a:active {
 
 .sidebar .logo-title .title img {
     width: 127px;
-    border-radius: 50%;
+    border-radius: 10%;
 }
 
 .sidebar .logo-title .title h3 {
@@ -827,6 +827,9 @@ print {
 
     .page-top {
         width: 100%;
+		background-image: url("../images/nav.png");
+		background-position: left;
+		background-repeat: no-repeat;
     }
 
     .post-title h3 {
