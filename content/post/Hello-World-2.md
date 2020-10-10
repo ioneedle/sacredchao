@@ -5,7 +5,7 @@ Description: "second"
 Tags: [tag]
 Categories: [cat]
 DisableComments: false
-images: ["post-cover.png"]
+images: ["images/post-cover.png"]
 ---
 
 Добро пожаловать! Это первая статья на моём новом персональном блоге, написанном на [Hugo](https://gohugo.io). Чувствуйте себя как дома.
