@@ -815,6 +815,11 @@ a.btn {
     padding-top: 50px;
 }
 
+.page_404 .img {
+  max-height: 80%;
+  width: auto;
+}
+
 .navbar-burger {
     display: none;
 }
