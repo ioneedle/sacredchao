@@ -1,12 +1,7 @@
 {{ define "main" }}
     <div class="page_404">
-        <h1>404</h1>
-        <h2>{{ i18n "page_not_found" }}</h2>
-        <p>{{ i18n "page_does_not_exist" }}</p>
-        <p>{{ i18n "head_back" .Site.BaseURL | safeHTML }}</p>
+        <h2>Не найдено</h2>
+        <a href="/">вернуться на главную</a>
+		<img style="width:300px; height:auto; align:center;" src="images/404.png" >
     </div>
-	
-	<div>
-		<img style="width:300px; height:auto;" src="images/404.png" >
-	</div>
 {{ end }}

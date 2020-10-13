@@ -1,0 +1,21 @@
+[category]
+other = "категория"
+
+[tag]
+other = "тэг"
+
+[reading_time]
+one = "One-minute read"
+other = "{{ .Count }}-minute read"
+
+[page_not_found]
+other = "Страница не найдена"
+
+[page_does_not_exist]
+other = "Жаль, такой страницы нет."
+
+[head_back]
+other = "Вернуться на <a href=\"{{ . }}\">главную</a>."
+
+[comments]
+other = "комментарии"
