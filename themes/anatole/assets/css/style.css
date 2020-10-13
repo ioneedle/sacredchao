@@ -812,7 +812,13 @@ a.btn {
 
 .page_404 {
     text-align: center;
-    padding-top: 50px;
+    padding-top: 10px;
+	background-image: url("../images/404.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+
 }
 
 .navbar-burger {
