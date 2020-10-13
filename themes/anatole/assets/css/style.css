@@ -816,8 +816,8 @@ a.btn {
 }
 
 .page_404 .img {
-  max-height: 80%;
-  width: auto;
+  max-width: 80%;
+  height: auto;
 }
 
 .navbar-burger {
