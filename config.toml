@@ -1,50 +1,39 @@
 baseURL = "https://sacredchao.tk"
 languageCode = "ru-ru"
-defaultContentLanguage = "ru"
 title = "Sacredchao"
-theme = "tale"
-paginate = 3
+theme = "noteworthy"
+enableRobotsTXT = true
+paginate = 10 # Set the number of posts to show before overflowing to the next page.
+summaryLength = 50 # Configure how long the post summary should be on the homepage.
 
-disqusShortname = ""
-googleAnalytics = ""
-
+[taxonomies]
+  tag = "tags"
+  categories = "categories"
+  
 [author]
   name = "sacredchao"
 
 [params]
-   author = "sacredchao"
-   description = "Anubis is a simple minimalist theme for Hugo blog engine."
-   dateFormat = "2006-01-02"
-   paginationSinglePost = true
-   style = "light"
-   readMore = true
+ 	math = true
+	# Blog description at the top of the homepage. Supports markdown.
+	description = "Nothing ever ends"
+    showReadMore = true
    
-[languages.ru]
-  languageName = "Russian"   
+[[menu.main]]
+	identifier = "about"
+	name = "Что это?"
+	url = "/about/"
+	weight = 1
 
-[menu]
+[[menu.main]]
+	identifier = "archive"
+	name = "Архив"
+	url = "/post/"
+	weight = 2
 
-  [[menu.main]]
-    identifier = "about"
-    name = "Что это?"
-    url = "/about/"
-    weight = 1
+[[menu.main]]
+	name = "RSS"
+	identifier = "rss"
+	url = "/index.xml"
+	weight = 3
 
-  [[menu.main]]
-    name = "Архив"
-    identifier = "archive"
-    url = "/posts/"
-    weight = 2
-	
- [[menu.main]]
-    identifier = "rss"
-    name = "RSS"
-    url = "/index.xml"
-    weight = 3	
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-
-[markup.goldmark.renderer]
-unsafe = true
