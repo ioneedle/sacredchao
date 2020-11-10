@@ -1,0 +1,62 @@
+baseURL = "https://lobyshev.tk"
+languageCode = "ru"
+DefaultContentLanguage = "ru"
+title = "Sacredchao"
+theme = "anatole"
+summarylength = 50
+enableEmoji = true
+enableRobotsTXT = true
+
+# Enable Disqus
+#disqusShortname = ""
+
+# Google Analytics
+#googleAnalytics = ""
+
+[params]
+title = "Sacredchao"
+author = "Sacredchao"
+description = "Nothing ever ends"
+profilePicture = "images/profile.png"
+keywords = ""
+favicon = "favicons/favicon.ico"
+customCss = []
+customJs = []
+mainSections = ["post"]
+images = ["images/site-feature-image.png"]
+# Google Site Verification
+#googleSiteVerify = ""
+
+## Math settings
+[params.math]
+enable = false  # options: true, false. Enable math support globally, default: false. You can always enable math on per page.
+use = "katex"  # options: "katex", "mathjax". default is "katex".
+
+## Social links
+
+[[params.socialIcons]]
+icon = "fa-rss"
+title = "rss"
+url = "/index.xml"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Главная"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Архив"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "Что это?"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
