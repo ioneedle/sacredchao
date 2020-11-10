@@ -2,9 +2,8 @@
 title: "Hugo"
 date: 2020-10-26
 Description: "Мануал по Hugo"
-Tags: [tag]
+Tags: [hugo]
 Categories: [tutorial]
-DisableComments: false
 
 ---
 
@@ -71,7 +70,7 @@ hugo server
 hugo server -D
 ```
 
-Первая команда для сайта без черновиков публикаций, вторая \- с черновиками. Если сейчас запустить зайти на `http://localhost:1313`, увидим сайт.
+Первая команда для сайта без черновиков публикаций, вторая \- с черновиками. Если сейчас зайти на `http://localhost:1313`, увидим сайт.
 
 ## Добавление контента
 
@@ -156,13 +155,13 @@ baseURL = "https://sample.com"
 
 В `config.toml` добавляем `relativeURLS` и устанавливаем  `true`.
 
-```text
+```
 relativeURLS=true
 ```
 
 Формируем статичные страницы:
 
-```bash
+```
 hugo -D
 ```
 
