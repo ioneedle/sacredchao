@@ -2,7 +2,7 @@ baseURL = "https://sacredchao.tk"
 languageCode = "ru-ru"
 defaultContentLanguage = "ru"
 title = "Sacredchao"
-theme = "anubis"
+theme = "tale"
 paginate = 3
 
 disqusShortname = ""
