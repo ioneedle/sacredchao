@@ -1,0 +1,86 @@
+ body {
+    margin: 0;
+    font-family: CustomSerif,Georgia,Cambria,'Times New Roman',serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.site-title, .post-title, .post-info, h1, .terms {
+    text-transform: uppercase;
+    font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
+    font-weight: 600;
+}
+
+.common-header {
+    padding-bottom: 0.5em;
+}
+
+.post-header {
+    margin-bottom: 0;
+}
+
+blockquote {
+    padding: 0em 1em;
+    font-style: italic;
+}
+
+article header h1 {
+    text-transform: uppercase;
+    font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
+    font-size: 18px;
+}
+
+header nav:not(:empty){
+    text-transform: uppercase;
+    font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.pagination-item {
+    font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
+    font-weight: 600;
+    text-transform: lowercase;
+    background: transparent;
+    border-top: 1px solid grey;
+
+    font-size: 15px;
+}
+
+.common-footer {
+    border-top: thin solid grey;
+}
+
+.theme-switcher {
+    color: var(--switcher-bg-color);    
+    background: transparent;
+    font-weight: 600;
+    border: 2px solid var(--switcher-bg-color);
+    border-radius: 7px 20px;
+    font-size: 13px;
+}
+
+.read-more {
+    font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: lowercase;
+}
+
+.post-taxonomies {
+    font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
+    font-size: 12px;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+.post-info {
+    margin-top: 0;
+}
+
+:root {
+   /* light.css */ 
+    --link-color:#f29602;
+    --link-state-color:#f29602;
+    --link-state-border-color: rgba(163, 29, 29, .5);
+}

@@ -1,0 +1,83 @@
+powered:
+  other: "Движок"
+
+theme:
+  other: "тема"
+
+readMore:
+  other: "дальше…"
+
+toNewPosts:
+  other: "к новым записям"
+
+toOldPosts:
+  other: "к старым записям"
+
+tag:
+  other: "@"
+
+Tags:
+  other: "теги"
+
+Posts:
+  other: "архив"
+
+category:
+  other: "@"
+
+Categories:
+  other: "категории"
+
+toAllTags:
+  other: "все теги"
+
+toAllCategories:
+  other: "все категории"
+
+skipToContent:
+  other: "к основному"
+
+darkTheme:
+  other: "тьма"
+
+lightTheme:
+  other: "свет"
+
+readNext:
+  other: "далее…"
+
+Jan:
+  other: "Янв"
+
+Feb:
+  other: "Фев"
+
+Mar:
+  other: "Мар"
+
+Apr:
+  other: "Апр"
+
+May:
+  other: "Май"
+
+Jun:
+  other: "Июн"
+
+Jul:
+  other: "Июл"
+
+Aug:
+  other: "Авг"
+
+Sep:
+  other: "Сен"
+
+Oct:
+  other: "Окт"  
+  
+Nov:
+  other: "Нов"
+
+Dec:
+  other: "Дек"
