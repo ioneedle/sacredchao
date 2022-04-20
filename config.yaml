@@ -1,7 +1,7 @@
 languageCode: "ru-ru"
 defaultContentLanguage: "ru"
-baseUrl: ""
-title: "310"
+baseUrl: "https://sacredchao.tk/"
+title: "3/10"
 theme: "anubis"
 paginate: 10
 disqusShortname: ""
@@ -21,7 +21,7 @@ params:
   author: "310"
   email:  # used for microformats
   avatar: "/images/doc.jpeg" # used for microformats
-  favicon: "/images/favicon.ico"
+  favicon: "https://sacredchao.tk/images/favicon.ico"
   description: "Посевы неразумного"
   # Uncomment if you need this
   images:

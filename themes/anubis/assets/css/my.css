@@ -11,6 +11,13 @@
     font-weight: 600;
 }
 
+.site-title {
+  border: 2px solid;
+  border-radius: 7px 20px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 .common-header {
     padding-bottom: 0.5em;
 }
@@ -52,7 +59,7 @@ header nav:not(:empty){
 }
 
 .theme-switcher {
-    color: var(--switcher-bg-color);    
+    color: var(--switcher-bg-color);
     background: transparent;
     font-weight: 600;
     border: 2px solid var(--switcher-bg-color);
@@ -79,7 +86,7 @@ header nav:not(:empty){
 }
 
 :root {
-   /* light.css */ 
+   /* light.css */
     --link-color:#f29602;
     --link-state-color:#f29602;
     --link-state-border-color: rgba(163, 29, 29, .5);
