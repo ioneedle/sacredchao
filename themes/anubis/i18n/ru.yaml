@@ -74,10 +74,13 @@ Sep:
   other: "Сен"
 
 Oct:
-  other: "Окт"  
-  
+  other: "Окт"
+
 Nov:
   other: "Нов"
 
 Dec:
   other: "Дек"
+
+404 Page not found:
+  other: "404"
