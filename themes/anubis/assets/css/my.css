@@ -58,13 +58,19 @@ header nav:not(:empty){
     border-top: thin solid grey;
 }
 
+.copyright {
+    text-transform: uppercase;
+    font-family: CustomSansSerif,'Lucida Grande',Arial,sans-serif;
+    font-size: 13px;
+}
+
 .theme-switcher {
     color: var(--switcher-bg-color);
     background: transparent;
     font-weight: 600;
     border: 2px solid var(--switcher-bg-color);
-    border-radius: 7px 20px;
-    font-size: 13px;
+    border-radius: 20px 7px;
+    font-size: 15px;
 }
 
 .read-more {

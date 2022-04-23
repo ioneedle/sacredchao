@@ -13,9 +13,34 @@
             {{ end }}
             </ul>
         {{ end }}
+        <div class="copyright">
+            <p>
+              <!--[if lte IE 8]>
+              <span style="
+                 filter: progid:DXImageTransform.Microsoft.BasicImage( rotation=2 );
+                 display: inline-block;
+              ">
+              <![endif]-->
+              <span style="
+                 -webkit-transform: scaleX(-1);
+                    -moz-transform: scaleX(-1);
+                      -o-transform: scaleX(-1);
+                  -khtml-transform: scaleX(-1);
+                     -ms-transform: scaleX(-1);
+                         transform: scaleX(-1);
+                 display: inline-block;
+              ">
+              	&copy;
+              </span> ALL WRONGS RESERVED
 
+              <!--[if lte IE 8]>
+              </span>
+              <![endif]--><br>
+              {{ partial "footer-extra.html" . }}
+            </p>
+        </div>
 
-        {{ partial "theme-switcher.html" . }}   
+        {{ partial "theme-switcher.html" . }}
     </div>
 
     {{ partial "h-card.html" . }}
