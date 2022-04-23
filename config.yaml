@@ -44,6 +44,10 @@ params:
   utterancesIssue: "" # optional
   utterancesLabel: "" # optional
 
+params.social:
+  - id: telegram
+    url: "https://t.me/ok310"
+
 markup:
   goldmark:
     renderer:
