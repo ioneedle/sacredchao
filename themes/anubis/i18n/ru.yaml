@@ -20,7 +20,10 @@ Tags:
   other: "теги"
 
 Posts:
-  other: "архив"
+  other: "свалка"
+  
+Archive:
+  other: "свалка"
 
 category:
   other: "@"
