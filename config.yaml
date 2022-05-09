@@ -1,6 +1,6 @@
 languageCode: "ru-ru"
 defaultContentLanguage: "ru"
-baseUrl: "https://sacredchao.tk/"
+baseUrl: "/"
 title: "3/I0"
 theme: "anubis"
 paginate: 10
@@ -20,8 +20,7 @@ menu:
 params:
   author: "3/I0"
   email:  # used for microformats
-  avatar: "/images/doc.jpeg" # used for microformats
-  favicon: "https://sacredchao.tk/images/favicon.ico"
+  avatar: "/images/doc.jpeg" # used for microformats  
   description: "Посевы неразумного"
   # Uncomment if you need this
   images:
