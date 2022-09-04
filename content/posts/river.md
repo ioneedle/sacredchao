@@ -9,7 +9,7 @@ categories: [
     "рассказки",
 ]
 images:
-     - https://sacredchao.tk/images/1.jpg
+     - https://ok310.gq/images/1.jpg
 ---
 
 ![Сквозь него течет река](/images/1.jpg)

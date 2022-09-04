@@ -45,6 +45,9 @@ params:
   social:
 #    - id: telegram
 #      name: ok310
+    - id: twitter
+      url: "https://twitter.com/ok3I0"
+      icon: "twitter"
     - id: mastodon
       url: "https://mastodon.social/@310"
       icon: "mastodon"
