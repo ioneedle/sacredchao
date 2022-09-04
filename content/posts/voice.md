@@ -9,7 +9,7 @@ categories: [
     "рассказки",
 ]
 images:
-     - https://sacredchao.tk/images/2.jpeg
+     - https://ok310.gq/images/2.jpeg
 ---
 
 ![Голос стаи](/images/2.jpeg)
