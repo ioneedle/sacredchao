@@ -11,11 +11,21 @@ relativeURLS: true
 
 menu:
   main:
+  - identifier: stories
+    name: рассказки
+    title: рассказки
+    url: /categories/рассказки/
+    weight: 10
+  - identifier: short
+    name: культяпки
+    title: культяпки
+    url: /categories/культяпки/
+    weight: 20
   - identifier: archive
     name: свалка
     title: свалка
     url: /posts/
-    weight: 0
+    weight: 30
 
 params:
   author: "3/I0"

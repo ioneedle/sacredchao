@@ -10,7 +10,7 @@
     <div class="post-taxonomies">
             {{ if .Params.date }}
                 <ul class="post-categories">
-                    <li>{{ .Params.date.Format $dateFormat }}</li>
+                    <li><a href="{{ .Permalink }}">{{ .Params.date.Format $dateFormat }}</a></li>
                 </ul>
             {{ end }}
             {{ if .Params.categories }}
