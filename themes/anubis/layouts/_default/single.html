@@ -19,7 +19,7 @@
             {{ .Content }}
         </div>
         {{ partial "post-info.html" . }}
-    </article>
+    </article><a class="u-bridgy-fed" href="https://fed.brid.gy/"></a>
 
     {{ if gt .Site.Params.readNextPosts 0 }}
         {{ $related := .Site.RegularPages.Related . | first .Site.Params.readNextPosts }}
