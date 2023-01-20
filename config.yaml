@@ -61,6 +61,10 @@ params:
     - id: telegram
       url: "https://t.me/ok310"
       icon: "telegram"
+  webmentions:
+#    url: https://webmention.io/ok310.gq/webmention
+    login: ok310.gq
+    pingback: true
 
 markup:
   goldmark:
