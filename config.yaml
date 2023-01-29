@@ -55,9 +55,15 @@ params:
   social:
 #    - id: telegram
 #      name: ok310
+    - id: pixelfed
+      url: "https://pixelfed.social/@sacredchao"
+      icon: "pixelfed"
+    - id: mastodon
+      url: "https://qoto.org/@ok310"
+      icon: "mastodon"
     - id: twitter
       url: "https://twitter.com/ok3I0"
-      icon: "twitter"
+      icon: "twitter.svg"
     - id: telegram
       url: "https://t.me/ok310"
       icon: "telegram"
