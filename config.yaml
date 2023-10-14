@@ -55,18 +55,20 @@ params:
   social:
 #    - id: telegram
 #      name: ok310
-    - id: pixelfed
-      url: "https://pixelfed.social/@sacredchao"
-      icon: "pixelfed"
-    - id: mastodon
-      url: "https://qoto.org/@ok310"
-      icon: "mastodon"
-    - id: twitter
-      url: "https://twitter.com/ok3I0"
-      icon: "twitter.svg"
+    - id: instagram
+      url: "https://www.instagram.com/sacredchao310/"
+      icon: "instagram"
     - id: telegram
       url: "https://t.me/ok310"
       icon: "telegram"
+  
+  UmamiAnalytics:
+    enabled: true # mandatory
+    dnt: true # optional
+    id: "b5f4c6f1-5e4f-4793-92b0-89c5be6525d3" # mandatory
+    datacache: false # optional
+    url: "https://analytics.eu.umami.is/script.js" # mandatory  
+  
   webmentions:
 #    url: https://webmention.io/ok310.gq/webmention
     login: ok310.gq
